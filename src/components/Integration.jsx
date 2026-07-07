@@ -1,18 +1,20 @@
 import { ArrowRight, Check } from 'lucide-react'
 
 const bullets = [
-  { bold: 'API Ready for HIS & LIS', text: '  — Seamlessly integrates with your existing Hospital Information System (HIS) and Laboratory Information System (LIS).' },
-  { bold: 'Ayushman Bharat Push', text: ' — nursing records auto submitted to National Health Authority without manual integration steps' },
-  { bold: 'Signed consents', text: ' auto-stored in patient record, immediately accessible' },
-  { bold: 'Live in 14 days', text: ' — implementation team in India, zero downtime' },
-  { bold: 'Hindi-speaking support team', text: ' — training delivered in English and Hindi' },
+  {
+  bold: 'API Integration for HIS, EMR, LIS & RIS',
+  text: ' — Securely integrate GudMed with your Hospital Information System (HIS), Electronic Medical Records (EMR), Laboratory Information System (LIS), and Radiology Information System (RIS) using standards-based APIs.'
+},
+  { bold: 'ABDM & Ayushman Bharat Integration', text: ' — Securely exchange healthcare data with the Ayushman Bharat Digital Mission (ABDM), reducing manual uploads and supporting national digital health initiatives.' },
+  { bold: 'Automatic Consent Record Synchronization', text: "Every digitally signed patient consent is instantly saved to the patient's electronic medical record for quick access and compliance." },
+  { bold: 'Fast Hospital Deployment', text: ' — Go live in as little as 14 days with guided implementation, minimal downtime, and dedicated onboarding support.' }
 ]
 
 
 const flowInputs = ['Vitals & Observations', 'Medication Records', 'Voice-to-Text for Doctors', 'Consent Signatures']
 
 const flowOutputs = [
-  { label: 'HIS & LIS', sub: 'API Ready Integration' },
+  { label: 'HIS,RIS & LIS', sub: 'API Ready Integration' },
   { label: 'Doctor Ward', sub: 'Real-time physician view' },
   { label: 'Shift Report', sub: 'Auto-generated handover' },
   { label: 'Ayushman Bharat', sub: 'National health exchange' },
@@ -26,10 +28,10 @@ export default function Integration() {
           {/* Left */}
           <div className="w-full lg:w-[42%] shrink-0">
             <div className="text-xs font-bold text-[#2E4168] uppercase mb-3">
-              Seamless Integration
+              LIS,RIS,HIS & EMR Integration
             </div>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900 leading-tight mb-6">
-              GudMed Writes Back Into Your HIS
+             Connect GudMed to Your HIS, RIS, EMR & LIS
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed mb-8">
               GudMed operates as an AI intelligence layer — taking inputs from nurses and clinicians, processing them, and writing structured data back into your existing Hospital Information System.
@@ -52,8 +54,8 @@ export default function Integration() {
 
           {/* Right — Data Flow */}
           <div className="flex-1">
-            <div className="text-xs font-bold text-gray-400 tracking-widest uppercase mb-6">
-              Data Flow
+            <div className="text-xs font-bold text-[#2E4168] tracking-widest uppercase mb-6">
+              How GudMed Integrates with Hospital Systems
             </div>
 
             <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6">

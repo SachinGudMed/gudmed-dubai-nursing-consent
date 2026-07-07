@@ -1,4 +1,6 @@
 import { ArrowRight, Sparkles } from 'lucide-react'
+import DemoModal from './DemoModal'
+import { useState } from 'react'
 
 const stats = [
   { value: '3 hrs', label: 'Documentation Time Saved Daily' },
@@ -9,8 +11,11 @@ const stats = [
 ]
 
 export default function Hero() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
   return (
     <section className="text-[#2E4168]">
+      <DemoModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
       {/* Main hero content */}
       <div className="max-w-7xl mx-auto px-6 pt-16 pb-12">
         {/* Badge */}
@@ -51,7 +56,10 @@ export default function Hero() {
 
         {/* CTAs */}
         <div className="flex flex-wrap gap-4">
-          <button className="bg-[#2E4168] text-white font-semibold px-6 py-3 rounded-xl text-sm cursor-pointer">
+          <button
+            onClick={() => setIsModalOpen(true)}
+            className="bg-[#2E4168] text-white font-semibold px-6 py-3 rounded-xl text-sm cursor-pointer hover:bg-[#3d5277] transition-colors"
+          >
             Request a Demo
           </button>
         </div>

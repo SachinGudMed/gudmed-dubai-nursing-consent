@@ -32,10 +32,10 @@ export default function CTASection() {
       <section className="py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-black text-[#2E4168] leading-tight mb-4">
-            Ready to See It in Your Hospital?
+            See How AI Nursing Documentation Works in Your Hospital.
           </h2>
           <p className="text-[#2E4168] text-sm leading-relaxed mb-10">
-            Book a live demo with our India clinical team. We'll demonstrate nursing notes and consent digitisation with your own clinical scenarios.
+            Schedule a personalized demo with our healthcare specialists and discover how GudMed automates AI nursing documentation, digital consent management, and EMR integration. We'll tailor the demonstration to your hospital's workflows and clinical documentation needs.
           </p>
 
           <form

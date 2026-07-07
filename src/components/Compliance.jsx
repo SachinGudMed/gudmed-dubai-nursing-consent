@@ -10,8 +10,8 @@ const items = [
   },
   {
     icon: Globe,
-    title: 'ABDM & ISO Guidelines',
-    desc: 'All nursing records and consent forms align with National Medical Commission and ISO 9001 standards for Indian healthcare facilities.',
+    title: 'ABDM Integration & Digital Health Standards',
+    desc: "Support India's Ayushman Bharat Digital Mission (ABDM) with standardized clinical documentation and interoperable healthcare records.",
     badge: 'ABDM Compliant',
     badgeColor: 'bg-purple-500',
   },
@@ -37,28 +37,35 @@ const items = [
     badgeColor: 'bg-teal-500',
   },
   {
-    icon: ShieldCheck,
-    title: 'Ayushman Bharat Integration',
-    desc: 'Nursing records and consent summaries integrated with national health registries. Seamless data exchange enabled. Patient-centric health record always current.',
-    badge: 'ABDM Connected',
-    badgeColor: 'bg-emerald-500',
-  },
+  icon: Lock,
+  title: 'DPDP Act 2023',
+  desc: 'Patient health information is handled with privacy-first principles aligned with the Digital Personal Data Protection (DPDP) Act, helping hospitals safeguard sensitive medical records.',
+  badge: 'Privacy Ready',
+  badgeColor: 'bg-cyan-500',
+},
+{
+  icon: Database,
+  title: 'SNOMED CT & ICD-10',
+  desc: 'Supports SNOMED CT clinical terminology and ICD-10 diagnosis coding to standardize patient documentation, improve interoperability, and enable accurate clinical reporting across healthcare systems.',
+  badge: 'Coding Standards',
+  badgeColor: 'bg-indigo-500',
+},
 ]
 
 export default function Compliance() {
   return (
     <section id="compliance" className="py-20">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-xs font-bold text-[#2E4168] tracking-widest uppercase mb-4">
-          Regulatory Compliance
+        <div className="text-xs font-bold text-[#2E4168] uppercase mb-4">
+          Regulatory Compliance for Hospitals
         </div>
 
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
           <h2 className="text-3xl md:text-4xl font-black text-[#2E4168] leading-tight max-w-lg">
-            Built to Pass Every Indian Audit
+            Built for NABH, ABDM, and Indian Healthcare Compliance
           </h2>
           <p className="text-[#2E4168] text-sm leading-relaxed max-w-sm">
-            Not a compliance add-on. Nursing and consent management designed around NABH, ABDM, and ISO requirements — not retrofitted to them.
+           GudMed is designed from the ground up to support NABH accreditation, ABDM integration, ISO standards, and secure healthcare documentation. Every nursing note, consent form, and patient record is created with compliance, audit readiness, and data security built in.
           </p>
         </div>
 

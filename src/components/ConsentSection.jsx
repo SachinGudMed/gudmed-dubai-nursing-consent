@@ -68,7 +68,7 @@ export default function ConsentSection() {
     <section id="consent-stock" className="bg-gray-50 py-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-xs font-bold text-[#2E4168] uppercase mb-3">
-          Consent Digitisation
+          Digital Consent Forms
         </div>
 
         <div className="flex flex-col lg:flex-row gap-16 items-start">

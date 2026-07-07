@@ -18,28 +18,28 @@ const statusColor = {
 const features = [
   {
     icon: Zap,
-    title: 'Voice-to-Text for Nurses',
-    desc: 'AI generates comprehensive shift handover summaries from voice entries and structured data. No more blank-staring at free-text fields.',
+    title: 'Voice-to-EMR Documentation',
+    desc: 'Convert spoken nursing observations into structured nursing notes and EMR documentation instantly. No typing, no manual data entry—just accurate, AI-powered clinical documentation.',
   },
   {
     icon: Zap,
-    title: 'Automated Shift Notes',
-    desc: 'AI generates comprehensive shift handover summaries from voice entries and structured data. No more blank-staring at free-text fields.',
+    title: 'AI-Generated Nursing Shift Notes',
+    desc: 'Automatically create complete nursing shift summaries using patient observations, vitals, medications, and clinical events to reduce documentation time and improve handovers.',
   },
   {
     icon: Activity,
-    title: 'ICU Scoring & Monitoring',
-    desc: 'EEG, APACHE II, NEWS2 scores auto-calculated and charted. Early deterioration flagged. Physician alerts configured in real time.',
+    title: 'AI ICU Monitoring & Clinical Scoring',
+    desc: 'Automatically calculate APACHE II, NEWS2, and other ICU scores while continuously monitoring patient vitals and alerting clinicians to early signs of deterioration.',
   },
   {
     icon: ClipboardList,
-    title: 'Medication Administration Record',
-    desc: 'MAR auto-populated from doctor\'s orders. Omission/eMAR status tracked. Overdue and missed alerts sent in real time.',
+    title: 'Smart Medication Administration Records (eMAR)',
+    desc: 'Generate accurate electronic medication administration records (eMAR), monitor missed doses, and receive real-time alerts for overdue medications.',
   },
   {
     icon: Users,
-    title: 'Structured Shift Handover',
-    desc: 'Nursing staff can handover in either language. Structured SBAR format handover — in under 2 minutes per patient.',
+    title: 'Structured Nursing Shift Handover',
+    desc: 'Standardize nursing handovers with AI-generated SBAR reports, ensuring every patient transition is complete, accurate, and delivered in under two minutes.',
   },
   // {
   //   icon: Globe,
@@ -54,17 +54,17 @@ export default function NursingNotes() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Label */}
         <div className="text-xs font-bold text-[#2E4168] tracking-widest uppercase mb-3">
-          AI Nursing Notes
+          Voice-to-EMR Documentation
         </div>
 
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           {/* Left — chart + note */}
           <div className="w-full lg:w-[45%] shrink-0">
             <h2 className="text-3xl md:text-4xl font-black text-[#2E4168] leading-tight mb-4">
-              Your Nurses Document Less. Care More.
+              Transform Nursing Documentation with AI.
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed mb-8">
-              GudMed captures vitals, observations, and nursing actions from structured input — generating compliant ward notes, ICU charts, and ICU scoring — structured and auto-summarised automatically.
+              GudMed's AI nursing documentation software captures patient vitals, clinical observations, medication records, and nursing activities to automatically generate structured nursing notes, ICU charts, and Electronic Medical Records (EMRs). Reduce manual documentation, improve accuracy, and maintain NABH-compliant clinical documentation across every shift.
             </p>
 
             {/* Nursing Chart Card */}

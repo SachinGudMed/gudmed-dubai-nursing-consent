@@ -1,12 +1,15 @@
 import { ChevronDown, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import logo from "../assets/Gudmed1-removebg-preview.png";
+import DemoModal from './DemoModal'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
     <nav className="bg-gray-300 border-b border-white/10 sticky top-0 z-50">
+      <DemoModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center">
           <img
@@ -29,9 +32,11 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <button className="bg-[#2E4168] text-white text-sm font-semibold cursor-pointer px-5 py-2 rounded-lg flex items-center gap-1.5 transition-colors">
+          <button
+            onClick={() => setIsModalOpen(true)}
+            className="bg-[#2E4168] text-white text-sm font-semibold cursor-pointer px-5 py-2 rounded-lg flex items-center gap-1.5 transition-colors hover:bg-[#3d5277]"
+          >
             Request Demo
-            <ChevronDown size={14} />
           </button>
         </div>
 
@@ -47,7 +52,10 @@ export default function Navbar() {
               {link}
             </a>
           ))}
-          <button className="bg-[#2E4168] text-white text-sm font-semibold px-5 py-2 rounded-lg w-full">
+          <button
+            onClick={() => setIsModalOpen(true)}
+            className="bg-[#2E4168] text-white text-sm font-semibold px-5 py-2 rounded-lg w-full hover:bg-[#3d5277] transition-colors"
+          >
             Request Demo
           </button>
         </div>
