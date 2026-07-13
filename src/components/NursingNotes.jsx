@@ -1,4 +1,4 @@
-import { Activity, Brain, ClipboardList, Globe, Users, Zap } from 'lucide-react'
+import { Activity, Brain, ClipboardList, Globe, Users, Zap, Sparkles } from 'lucide-react'
 
 const vitals = [
   { param: 'Blood Pressure', value: '128/82 mmHg', status: 'Normal', color: 'green' },
@@ -22,7 +22,7 @@ const features = [
     desc: 'Convert spoken nursing observations into structured nursing notes and EMR documentation instantly. No typing, no manual data entry—just accurate, AI-powered clinical documentation.',
   },
   {
-    icon: Zap,
+    icon: Sparkles,
     title: 'AI-Generated Nursing Shift Notes',
     desc: 'Automatically create complete nursing shift summaries using patient observations, vitals, medications, and clinical events to reduce documentation time and improve handovers.',
   },
@@ -121,7 +121,8 @@ export default function NursingNotes() {
           </div>
 
           {/* Right — features */}
-          <div className="flex-1 flex flex-col gap-6 pt-2">
+          {/* <div className="flex-1 flex flex-col gap-6 pt-2"> */}
+          <div className="flex-1 flex flex-col justify-between min-h-[750px] pt-2">
             {features.map(({ icon: Icon, title, desc }) => (
               <div key={title} className="flex gap-4">
                 <div className="shrink-0 w-9 h-9 rounded-xl bg-[#2E4168] flex items-center justify-center mt-0.5">
