@@ -120,7 +120,7 @@ export default function ConsentSection() {
                   <div key={step.num} className="flex gap-4">
                     {/* Timeline */}
                     <div className="flex flex-col items-center">
-                      <div className="w-9 h-9 rounded-full bg-[#2E4168] text-[#6366f1] flex items-center justify-center text-xs font-black shrink-0">
+                      <div className="w-9 h-9 rounded-full bg-[#2E4168] text-white flex items-center justify-center text-xs font-black shrink-0">
                         {step.num}
                       </div>
                       {i < steps.length - 1 && (

@@ -14,7 +14,7 @@ const bullets = [
 const flowInputs = ['Vitals & Observations', 'Medication Records', 'Voice-to-Text for Doctors', 'Consent Signatures']
 
 const flowOutputs = [
-  { label: 'HIS,RIS & LIS', sub: 'API Ready Integration' },
+  { label: 'HIS, EMR, LIS & RIS', sub: 'API Ready Integration' },
   { label: 'Doctor Ward', sub: 'Real-time physician view' },
   { label: 'Shift Report', sub: 'Auto-generated handover' },
   { label: 'Ayushman Bharat', sub: 'National health exchange' },
@@ -30,8 +30,8 @@ export default function Integration() {
             <div className="text-xs font-bold text-[#2E4168] uppercase mb-3">
               LIS,RIS,HIS & EMR Integration
             </div>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900 leading-tight mb-6">
-             Connect GudMed to Your HIS, RIS, EMR & LIS
+            <h2 className="text-3xl md:text-4xl font-black text-[#2E4168] leading-tight mb-6">
+             Connect GudMed to Your HIS, EMR, LIS & RIS
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed mb-8">
               GudMed operates as an AI intelligence layer — taking inputs from nurses and clinicians, processing them, and writing structured data back into your existing Hospital Information System.
