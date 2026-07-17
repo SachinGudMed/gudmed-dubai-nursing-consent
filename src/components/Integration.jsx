@@ -2,7 +2,7 @@ import { ArrowRight, Check } from 'lucide-react'
 
 const bullets = [
   {
-    bold: 'API Integration for HIS, EMR, LIS & RIS',
+    bold: 'API Integration for HIS, LIS, EMR & RIS',
     text: ' — Securely integrate GudMed with your Hospital Information System (HIS), Electronic Medical Records (EMR), Laboratory Information System (LIS), and Radiology Information System (RIS) using standards-based APIs.'
   },
   { bold: 'ABDM & Ayushman Bharat Integration', text: ' — Securely exchange healthcare data with the Ayushman Bharat Digital Mission (ABDM), reducing manual uploads and supporting national digital health initiatives.' },
