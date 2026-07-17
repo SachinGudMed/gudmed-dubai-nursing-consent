@@ -18,7 +18,7 @@ export default function DemoModal({ isOpen, onClose }) {
               See GudMed in Action
             </h2>
             <p className="text-white/60 text-sm mt-1">
-              Join Indian hospitals automating nursing documentation
+              Join hospitals automating nursing documentation
             </p>
           </div>
           <button

@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
-    <nav className="bg-gray-300 border-b border-white/10 sticky top-0 z-50">
+    <nav className="bg-gray-100 border-b border-white/10 sticky top-0 z-50">
       <DemoModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center">

@@ -37,19 +37,19 @@ const items = [
   //   badgeColor: 'bg-teal-500',
   // },
   {
-  icon: Lock,
-  title: 'DPDP Act 2023',
-  desc: 'Patient health information is handled with privacy-first principles aligned with the Digital Personal Data Protection (DPDP) Act, helping hospitals safeguard sensitive medical records.',
-  badge: 'DPDP Compliant',
-  badgeColor: 'bg-[#E8B84B]/15',
-},
-{
-  icon: Database,
-  title: 'SNOMED CT & ICD-10',
-  desc: 'Supports SNOMED CT clinical terminology and ICD-10 diagnosis coding to standardize patient documentation, improve interoperability, and enable accurate clinical reporting across healthcare systems.',
-  badge: 'Coding Standards',
-  badgeColor: 'bg-[#E8B84B]/15',
-},
+    icon: Lock,
+    title: 'DPDP Act 2023',
+    desc: 'Patient health information is handled with privacy-first principles aligned with the Digital Personal Data Protection (DPDP) Act, helping hospitals safeguard sensitive medical records.',
+    badge: 'DPDP Compliant',
+    badgeColor: 'bg-[#E8B84B]/15',
+  },
+  {
+    icon: Database,
+    title: 'SNOMED CT & ICD-10',
+    desc: 'Supports SNOMED CT clinical terminology and ICD-10 diagnosis coding to standardize patient documentation, improve interoperability, and enable accurate clinical reporting across healthcare systems.',
+    badge: 'Coding Standards',
+    badgeColor: 'bg-[#E8B84B]/15',
+  },
 ]
 
 export default function Compliance() {
@@ -61,11 +61,11 @@ export default function Compliance() {
         </div>
 
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
-          <h2 className="text-3xl md:text-4xl font-black text-[#2E4168] leading-tight max-w-lg">
+          <h2 className="text-3xl md:text-4xl font-semibold text-[#2E4168] leading-tight max-w-lg">
             Built for NABH, ABDM, and Indian Healthcare Compliance
           </h2>
           <p className="text-[#2E4168] text-sm leading-relaxed max-w-sm">
-           GudMed is designed from the ground up to support NABH accreditation, ABDM integration, ISO standards, and secure healthcare documentation. Every nursing note, consent form, and patient record is created with compliance, audit readiness, and data security built in.
+            GudMed is designed from the ground up to support NABH accreditation, ABDM integration, ISO standards, and secure healthcare documentation. Every nursing note, consent form, and patient record is created with compliance, audit readiness, and data security built in.
           </p>
         </div>
 

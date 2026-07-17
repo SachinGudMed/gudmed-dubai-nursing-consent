@@ -21,7 +21,7 @@ export default function CTASection() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 divide-x divide-white/10">
           {bottomStats.map((s) => (
             <div key={s.value} className="px-6 first:pl-0 last:pr-0 text-center">
-              <div className="text-2xl md:text-3xl font-black text-white mb-1">{s.value}</div>
+              <div className="text-2xl md:text-3xl font-semibold text-white mb-1">{s.value}</div>
               <div className="text-white/50 text-xs leading-snug">{s.label}</div>
             </div>
           ))}
@@ -31,7 +31,7 @@ export default function CTASection() {
       {/* CTA */}
       <section className="py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-[#2E4168] leading-tight mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-[#2E4168] leading-tight mb-4">
             See How AI Nursing Documentation Works in Your Hospital.
           </h2>
           <p className="text-[#2E4168] text-sm leading-relaxed mb-10">
@@ -63,7 +63,7 @@ export default function CTASection() {
             </a>
             <a href="tel:+971529422420" className="flex items-center gap-1.5">
               <Phone size={13} />
-             +91-9999196828
+              +91-9999196828
             </a>
           </div>
         </div>

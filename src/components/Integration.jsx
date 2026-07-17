@@ -2,9 +2,9 @@ import { ArrowRight, Check } from 'lucide-react'
 
 const bullets = [
   {
-  bold: 'API Integration for HIS, EMR, LIS & RIS',
-  text: ' — Securely integrate GudMed with your Hospital Information System (HIS), Electronic Medical Records (EMR), Laboratory Information System (LIS), and Radiology Information System (RIS) using standards-based APIs.'
-},
+    bold: 'API Integration for HIS, EMR, LIS & RIS',
+    text: ' — Securely integrate GudMed with your Hospital Information System (HIS), Electronic Medical Records (EMR), Laboratory Information System (LIS), and Radiology Information System (RIS) using standards-based APIs.'
+  },
   { bold: 'ABDM & Ayushman Bharat Integration', text: ' — Securely exchange healthcare data with the Ayushman Bharat Digital Mission (ABDM), reducing manual uploads and supporting national digital health initiatives.' },
   { bold: 'Automatic Consent Record Synchronization', text: "Every digitally signed patient consent is instantly saved to the patient's electronic medical record for quick access and compliance." },
   { bold: 'Fast Hospital Deployment', text: ' — Go live in as little as 14 days with guided implementation, minimal downtime, and dedicated onboarding support.' }
@@ -30,8 +30,8 @@ export default function Integration() {
             <div className="text-xs font-bold text-[#2E4168] uppercase mb-3">
               LIS,RIS,HIS & EMR Integration
             </div>
-            <h2 className="text-3xl md:text-4xl font-black text-[#2E4168] leading-tight mb-6">
-             Connect GudMed to Your HIS, EMR, LIS & RIS
+            <h2 className="text-3xl md:text-4xl font-semibold text-[#2E4168] leading-tight mb-6">
+              Connect GudMed to Your HIS, LIS, EMR & RIS
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed mb-8">
               GudMed operates as an AI intelligence layer — taking inputs from nurses and clinicians, processing them, and writing structured data back into your existing Hospital Information System.

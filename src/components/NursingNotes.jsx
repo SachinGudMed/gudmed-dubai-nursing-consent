@@ -60,10 +60,10 @@ export default function NursingNotes() {
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           {/* Left — chart + note */}
           <div className="w-full lg:w-[45%] shrink-0">
-            <h2 className="text-3xl md:text-4xl font-black text-[#2E4168] leading-tight mb-4">
+            <h2 className="text-3xl md:text-4xl font-semibold text-[#2E4168] leading-tight mb-4">
               Transform Nursing Documentation with AI.
             </h2>
-            <p className="text-gray-500 text-sm leading-relaxed mb-8">
+            <p className="text-gray-500 text-base leading-relaxed mb-8">
               GudMed's AI nursing documentation software captures patient vitals, clinical observations, medication records, and nursing activities to automatically generate structured nursing notes, ICU charts, and Electronic Medical Records (EMRs). Reduce manual documentation, improve accuracy, and maintain NABH-compliant clinical documentation across every shift.
             </p>
 

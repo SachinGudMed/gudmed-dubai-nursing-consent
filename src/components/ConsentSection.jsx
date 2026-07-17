@@ -74,7 +74,7 @@ export default function ConsentSection() {
         <div className="flex flex-col lg:flex-row gap-16 items-stretch">
           {/* Left — consent cards */}
           <div className="w-full lg:w-[48%] shrink-0">
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900 leading-tight mb-4">
+            <h2 className="text-3xl md:text-4xl font-semibold text-[#2E4168] leading-tight mb-4">
               No More Paper Consents.
               <br />No More Lost Signatures.
             </h2>
